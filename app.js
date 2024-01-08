@@ -56,7 +56,9 @@ var w = c.width = window.innerWidth,
 		letters = [];
 
 ctx.font = opts.charSize + 'px Verdana';
-
+// let span =document.getElementsByClassName("span");
+// span="ManojKumar";
+document.title=" Happy Birthday! ManojKumar 🎂"
 function Letter( char, x, y ){
 	this.char = char;
 	this.x = x;
